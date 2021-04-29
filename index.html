@@ -28,7 +28,7 @@
 <body>
 
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">My Page</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-menu" 
@@ -38,19 +38,19 @@
             <div class="collapse navbar-collapse" id="my-menu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="header">Home</a>
+                <a class="nav-link" href="#header">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
+                <a class="nav-link" href="#info-one">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             </div>
         </div>
       </nav>
-
+s
       <!--Header-->
 
       <header id="header">
@@ -65,7 +65,7 @@
                       <div class="header-content-right">
                           <h1 class="display-4">Lorem, ipsum dolor.</h1>
                           <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam reprehenderit dicta natus itaque fugiat, error cupiditate mollitia vel veritatis magnam dolor perspiciatis tempore harum, placeat, omnis dolores nemo delectus odio.</p>
-                          <a href="#" class="btn btn-outline-secondary btn-lg mt-2">Read more</a>
+                          <a href="#" class="btn btn-outline-secondary btn-lg mt-2 header-btn">Read more</a>
                         </div>
                   </div>
               </div>
@@ -82,18 +82,77 @@
           </div>
       </section>
 
+      <!--Info one-->
       <section id="info-one">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="info-left">
-                        <img src="img/idea.jpg" alt="">
+                        <img src="img/vaccine.png" alt="vaccine" style="width: 100%;">
                     </div>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6 my-auto">
+                    <div class="info right">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestias ducimus voluptas delectus excepturi. Officia fugiat maiores similique dolores eveniet ut doloribus quidem asperiores harum a. Minus inventore itaque autem.
+                        Fugit cum tempore dignissimos dolore obcaecati deserunt ex nam ipsam voluptatibus debitis, harum officia magnam mollitia itaque vitae. Quos iusto quo ducimus beatae officia repudiandae dolorum explicabo corrupti mollitia exercitationem?
+                        Cumque, quidem. Odit adipisci veritatis, fugiat molestias nulla eveniet labore sequi facere iste praesentium velit aliquam at. Tempore eos id optio placeat eum itaque. Ut reiciendis sapiente deleniti minima cupiditate?
+                        Explicabo dolore consectetur officiis maxime culpa, omnis sequi praesentium hic distinctio? Et, deleniti ab inventore consectetur voluptas sequi qui error? Modi, aliquid tenetur possimus autem hic cupiditate quos iure vitae!</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg mt-2">Read more</a>
+                    </div>
+                </div>
             </div>
         </div>
       </section>
+
+
+      <!--Info two-->
+      <section id="info-two">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestias ducimus voluptas delectus excepturi. Officia fugiat maiores similique dolores eveniet ut doloribus quidem asperiores harum a. Minus inventore itaque autem.
+                    Fugit cum tempore dignissimos dolore obcaecati deserunt ex nam ipsam voluptatibus debitis, harum officia magnam mollitia itaque vitae. Quos iusto quo ducimus beatae officia repudiandae dolorum explicabo corrupti mollitia exercitationem?
+                    Cumque, quidem. Odit adipisci veritatis, fugiat molestias nulla eveniet labore sequi facere iste praesentium velit aliquam at. Tempore eos id optio placeat eum itaque. Ut reiciendis sapiente deleniti minima cupiditate?
+                    Explicabo dolore consectetur officiis maxime culpa, omnis sequi praesentium hic distinctio? Et, deleniti ab inventore consectetur voluptas sequi qui error? Modi, aliquid tenetur possimus autem hic cupiditate quos iure vitae!</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestias ducimus voluptas delectus excepturi. Officia fugiat maiores similique dolores eveniet ut doloribus quidem asperiores harum a. Minus inventore itaque autem.
+                    Fugit cum tempore dignissimos dolore obcaecati deserunt ex nam ipsam voluptatibus debitis, harum officia magnam mollitia itaque vitae. Quos iusto quo ducimus beatae officia repudiandae dolorum explicabo corrupti mollitia exercitationem?
+                    Cumque, quidem. Odit adipisci veritatis, fugiat molestias nulla eveniet labore sequi facere iste praesentium velit aliquam at. Tempore eos id optio placeat eum itaque. Ut reiciendis sapiente deleniti minima cupiditate?
+                    Explicabo dolore consectetur officiis maxime culpa, omnis sequi praesentium hic distinctio? Et, deleniti ab inventore consectetur voluptas sequi qui error? Modi, aliquid tenetur possimus autem hic cupiditate quos iure vitae!</p>
+                    
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <footer id="contact">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-5">
+                      <form action="" class="card">
+                          <div class="card-body">
+                              <div class="form-group">
+                                  <input type="text" placeholder="Name" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                  <input type="email" placeholder="Email" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                  <textarea name="" id="" cols="80" rows="8" placeholder="message" class="form-control"></textarea>
+                              </div>
+                              <button type="button" class="btn btn-outline-secondary btn-block">Enviar</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+      <script src="js/index.js"></script>
     
 </body>
 </html>
